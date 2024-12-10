@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title></title>
+    <link href="/2024/12/11/Gitee+PicGo%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A/"/>
+    <url>/2024/12/11/Gitee+PicGo%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Gitee-PicGo自建图床"><a href="#Gitee-PicGo自建图床" class="headerlink" title="Gitee+PicGo自建图床"></a>Gitee+PicGo自建图床</h1><h2 id="一、新建Gitee仓库并创建私人令牌token"><a href="#一、新建Gitee仓库并创建私人令牌token" class="headerlink" title="一、新建Gitee仓库并创建私人令牌token"></a>一、新建Gitee仓库并创建私人令牌token</h2><h3 id="1-登录Gitee账号并新建仓库"><a href="#1-登录Gitee账号并新建仓库" class="headerlink" title="1. 登录Gitee账号并新建仓库"></a>1. 登录Gitee账号并新建仓库</h3><p><img src="https://gitee.com/Jacky7965/FengImageService/raw/master/Markdown/image-20241208200716167.png" alt="image-20241208200716167"></p><p><img src="https://gitee.com/Jacky7965/FengImageService/raw/master/Markdown/image-20241208201211146.png" alt="image-20241208201211146"></p><h3 id="2-创建私人令牌token"><a href="#2-创建私人令牌token" class="headerlink" title="2. 创建私人令牌token"></a>2. 创建私人令牌token</h3><p>在右上角头像处，找到 ”设置“ 选项，然后在 ”安全设置模块“ 找到 ”私人令牌“</p><p><img src="https://gitee.com/Jacky7965/FengImageService/raw/master/Markdown/image-20241208202154717.png" alt="image-20241208202154717"></p><h2 id="二、安装PicGo并配置图床"><a href="#二、安装PicGo并配置图床" class="headerlink" title="二、安装PicGo并配置图床"></a>二、安装PicGo并配置图床</h2><h3 id="1-安装PicGo"><a href="#1-安装PicGo" class="headerlink" title="1. 安装PicGo"></a>1. 安装PicGo</h3><p>注意：在安装PicGo之前，需要安装Node.js。参考链接如下：</p><p><a href="https://blog.csdn.net/qq_42006801/article/details/124830995">https://blog.csdn.net/qq_42006801/article/details/124830995</a></p><p>（1）PicGo安装地址：</p><p><a href="https://picgo.github.io/PicGo-Doc/zh/guide/#%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85">https://picgo.github.io/PicGo-Doc/zh/guide/#%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85</a></p><p>【建议使用国内安装路径，速度更快】</p><p>（2）PicGo安装</p><h3 id="2-配置PicGo"><a href="#2-配置PicGo" class="headerlink" title="2. 配置PicGo"></a>2. 配置PicGo</h3><p><img src="https://gitee.com/Jacky7965/FengImageService/raw/master/Markdown/image-20241208203558952.png" alt="image-20241208203558952"></p><p>注意：</p><p>① 如果在图床设置中没有Gitee选项，需要通过插件设置进行插入，输入”gitee”，查看有没有gitee上传的插件。   </p><p> ② 如果没有，需要通过在PicGo安装目录执行 <code>npm install</code>安装插件命令，例如：<code>npm install picgo-plugin-gitee-uploader</code> 这是一个gitee上传插件（参考链接：<a href="https://www.cnblogs.com/crstyl/p/16669794.html%EF%BC%89">https://www.cnblogs.com/crstyl/p/16669794.html）</a></p><p> ③ 找到这个插件，例如：<code>D:\MySoftware\PicGo\node_modules</code>，加载到PicGo，要重启该应用。</p><p><img src="https://gitee.com/Jacky7965/FengImageService/raw/master/Markdown/image-20241208204827502.png" alt="image-20241208204827502"></p><h2 id="三、Typora使用图床"><a href="#三、Typora使用图床" class="headerlink" title="三、Typora使用图床"></a>三、Typora使用图床</h2><p><img src="https://gitee.com/Jacky7965/FengImageService/raw/master/Markdown/image-20241208205201907.png" alt="image-20241208205201907"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2024/12/11/hello-world/"/>
     <url>/2024/12/11/hello-world/</url>
